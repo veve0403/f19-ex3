@@ -14,7 +14,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-cycles = 100 # try cycles=10 for testing and cycles=5000 for real applications
+cycles = 10 # try cycles=10 for testing and cycles=5000 for real applications
 sims = 10
 
 exercise = 'part1' # change this for each exercise
