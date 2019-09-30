@@ -49,6 +49,11 @@ In theory, you are optimizing a rapid event related design. Looking at the outpu
 
 Spoiler: your design could be broadly characterized as having the features of something other than a rapid event-related design, although the design may have not converged to the ideal form of this other type of design. 
 
+### Answer 1.1
+
+It looks like this algorithm converged this rapid event related design in to a stochastic design, with non-fixed ISI. 
+
+
 
 ## Question 1.2
 
@@ -58,6 +63,11 @@ Speculate on why the optimal design you have obtained is in some respects unchar
 2. What effect does the number of conditions have here? What would you predict if there were 6 conditions?
 
 You will investigate these questions in the next sections, but please answer these questions before looking at your results from part 2 & 3.
+
+### Answer 1.2
+
+1. When stimulus 1 or when stimulus 2 happens are relatively predictable.  If equal weight were given to detection efficiency and 3rd order counterbalancing, then we should expect to see similar ISI between different stimuli, but more variabilities in terms of when stimulus 1 or when stimulus 2 happen and how many of them will happen. 
+2. Less conditions might mean less able to control for predictability? If there were 6 conditions, then predictability can also be controled by the order of how different stimuli are presented, instead of only how many of certain stimulus is presented before the other one shows up.  
 
 
 # Part 2
@@ -73,10 +83,17 @@ Also change `exercise = 'part2'` on line 20 of the script. Save the python scrip
 
 Compared to the result of Part 1, does this design qualitatively seems to be more of a rapid event-related design?
 
+### Answer 2.1
+
+Yes, also looks more like a stochastic design. 
+
 ## Question 2.2
 
 Are the differences between this design and Part 1 consistent with your earlier predictions?
 
+### Answer 2.2
+
+Yes, how many times one certain stimulus happen are less predictable than the design in Part 1 now. 
 
 
 # Part 3
@@ -91,7 +108,7 @@ Also change `exercise = 'part3'` on line 20 of the script. Save the python scrip
 
 
  
-#Part 4
+# Part 4
 
 The previous designs were constructed to illustrate how design timing changes under different constraints and are unlikely to reflect practical design problems. Now we consider a moderately complex design that is realistic.
 
@@ -134,3 +151,6 @@ This is a very good thing statistically, but it may be undesirable psychological
 **Q: Does the structure of this design seem desirable from both a psychological expectation and neural adaptation perspective? If not, is there a parameter in the [src.neurodesign.experiment class documentation](https://neurodesign.readthedocs.io/en/latest/genalg.html#neurodesign-design-optimisation) that might be useful to change?**
 
 
+### Answer 4.1
+
+I couldn't get part 3 and part 4 to complete till now... if I run them for 10 cycles, both parts would work on my own computer. Then I set them up for 30 hours, and they both timed out, Then I set them up for 50 hours, and increased the memory to 4GB, they are still running now...
